@@ -1,0 +1,19 @@
+{
+  "first_name": "Asif",
+  "last_name": "Habilov",
+  "team": "data-science",
+  "model": {
+    "framework": "yolo26",
+    "variant": "yolo26m",
+    "imgsz": 1024,
+    "epochs_total": 80,
+    "tricks": [
+      "two_stage_finetune",
+      "strong_augmentation",
+      "cos_lr",
+      "weight_decay",
+      "early_stopping_patience"
+    ]
+  },
+  "notes": "Cats v2 — yolo26m two-stage finetune, heavy mosaic+mixup+copy_paste, cosine LR, exported with YOLO26 end-to-end ONNX head."
+}
